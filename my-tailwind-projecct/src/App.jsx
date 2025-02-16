@@ -9,12 +9,18 @@ const App = () => {
 
     <input type="text" placeholder='Enter your name'className='bg-white text-lg text-amber border-2 p-4 rounded ml-4 outline-0 '/>
     </div>
+
     <div className="@container border p-4 ">
       <div className='flex gap-4'>
         <div className='bg-blue-400 h-40 w-64 ' ></div>
         <div className='bg-green-500 h-40 w-64 @min-md:@max-xl:hidden '></div>
         <div className='bg-red-500 h-40 w-64 '></div>
+        <div className='bg-yellow-500 h-40 w-64 '></div>
       </div>
+    </div>
+
+    <div className='min-h-screen flex items-center justify-center bg-gray-100 perspective-1000'>
+      <div className=' bg-blue-500 h-96 w-96 flex items-center justify-center text-white text-4xl font-bold   transform-style-3d transform hover:scale-120 hover:transalte-z-20 transition-transform duration-4000 '>3D Rotate</div>
     </div>
     </>
   )
